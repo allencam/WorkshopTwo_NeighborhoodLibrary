@@ -81,18 +81,23 @@ public class Main {
         } while (mainMenuCommand != 0);
     }
     public static void showAvailableBooks() {
-        int optionNumber = 1;
+        int listNumber = 1;
         for( Book book : catalog ) {
             if(!book.isCheckedOut()) {
-                System.out.println(optionNumber + " - " + book.getTitle());
-                optionNumber++;
+                System.out.println(listNumber + " - " + book);
+                listNumber++;
             }
         }
     }
     public static void booksCheckedOut() {
-
+        for (Book book : catalog) {
+            if(book.isCheckedOut()) {
+                System.out.println("Book: " + book.getTitle() + ", Checked out by: " + book.getCheckedOutTo());
+            }
+        }
     }
     public static void checkIn() {
 
     }
 }
+
