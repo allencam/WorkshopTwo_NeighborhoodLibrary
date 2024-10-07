@@ -98,6 +98,27 @@ public class Main {
     }
     public static void checkIn() {
 
+        boolean validId = false;
+        while(!validId) {
+            System.out.print("Enter the ID number a book to check in (or enter 0 to return to the main menu): ");
+            int checkInBookId = scan.nextInt();
+            if (checkInBookId == 0) {
+                // Returns to main menu
+                validId = true;
+                break;
+            }
+            for(Book book : catalog) {
+                if (checkInBookId == book.getId()) {
+                    System.out.println(book.getTitle() + " has been checked in.");
+                    book.setCheckedOutTo("");
+                    book.setCheckedOut(false);
+                    validId = true;
+                }
+            }
+            if(validId = false) {
+                System.out.println("Invalid ID, please try again.");
+            }
+        }
     }
 }
 
