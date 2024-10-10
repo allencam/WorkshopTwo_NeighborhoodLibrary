@@ -1,0 +1,21 @@
+id|isbn|title|isCheckedOut|checkedOutTo
+101001|9781234567891|Grimoire of Ancient Spells|true|Isolde Starfire
+101002|9781234567892|The Enchanted Forest Chronicles|false|nobody
+101003|9781234567893|Tales of the Forgotten Fairies|false|nobody
+101004|9781234567894|The Sorcerer's Handbook|false|nobody
+101005|9781234567895|Fables of the Feywild|true|Elowen Windwalker
+101006|9781234567896|The Witch's Compendium|false|nobody
+101007|9781234567897|The Book of Shadows|true|Thorne Darkbriar
+101008|9781234567898|Legends of the Dragonkin|false|nobody
+101009|9781234567899|The Fairy Queen's Saga|false|nobody
+101010|9781234567800|Arcane Mysteries Unveiled|false|nobody
+101011|9781234567801|Chronicles of the Faerie Court|false|nobody
+101012|9781234567802|The Wizard's Grimoire|false|nobody
+101013|9781234567803|The Lost Tales of Avalon|false|nobody
+101014|9781234567804|The Tome of Elemental Magic|false|nobody
+101015|9781234567805|Myths of the Enchanted Lands|true|Seraphina Moonshadow
+101016|9781234567806|The Faerie Godmother's Spellbook|false|nobody
+101017|9781234567807|The Cursed Chronicles|false|nobody
+101018|9781234567808|Wands and Whispers: A Wizard’s Guide|false| nobody
+101019|9781234567809|The Fairy Tales of Olde|false| nobody
+101020|9781234567810|The Crown of Karsus|true|Enver Gortash
